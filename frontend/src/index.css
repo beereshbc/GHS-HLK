@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@100..800&family=Baskervville:ital,wght@0,400..700;1,400..700&family=Exo:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Tiro+Kannada:ital@0;1&display=swap');
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Anek Kannada";
+}
+
+.font-kannada-tiro {
+  font-family: "Tiro Kannada";
+}
+
+html,
+body {
+  height: 100%;
+  overflow: auto;
+}
