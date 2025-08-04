@@ -88,7 +88,7 @@ const Navbar = () => {
         {/* Admin Login (Desktop) */}
         <div className="hidden md:block">
           <NavLink
-            to="http://localhost:5174/"
+            to="https://ghs-hlk.vercel.app/"
             className="text-sm font-medium border border-white px-6 py-1.5 rounded-lg hover:text-yellow-300 transition"
           >
             Admin Login
@@ -177,7 +177,7 @@ const Navbar = () => {
           {/* Admin Login */}
           <div>
             <NavLink
-              to="http://localhost:5174/"
+              to="https://ghs-hlk.vercel.app/"
               className="block text-sm mt-3 font-medium  text-white hover:text-yellow-300"
             >
               Admin Login
