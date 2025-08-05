@@ -6,7 +6,7 @@ const ShareButtons = ({ title, url }) => {
   const encodedUrl = encodeURIComponent(url);
 
   return (
-    <div className="flex gap-4 justify-center text-center text-primary">
+    <div className="flex max-w-[75vw] gap-4 justify-center text-center text-primary">
       <motion.a
         whileHover={{ scale: 1.1, color: "#000" }}
         whileTap={{ scale: 0.9 }}
@@ -16,7 +16,7 @@ const ShareButtons = ({ title, url }) => {
         rel="noopener noreferrer"
         href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodedUrl}&title=${encodedTitle}`}
       >
-        ಲಿಂಕ್ಡ್‌ಇನ್‌ನಲ್ಲಿ ಹಂಚಿ
+        ಲಿಂಕ್ಡ್‌ಇನ್‌
       </motion.a>
 
       <motion.a
@@ -28,7 +28,7 @@ const ShareButtons = ({ title, url }) => {
         rel="noopener noreferrer"
         href={`https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`}
       >
-        ಟ್ವಿಟ್ಟರ್‌ನಲ್ಲಿ ಹಂಚಿ
+        ಟ್ವಿಟ್ಟರ್
       </motion.a>
 
       <motion.a
@@ -40,7 +40,7 @@ const ShareButtons = ({ title, url }) => {
         rel="noopener noreferrer"
         href={`https://wa.me/?text=*${encodedTitle}*%20${encodedUrl}`}
       >
-        ವಾಟ್ಸಾಪ್‌ನಲ್ಲಿ ಹಂಚಿ
+        ವಾಟ್ಸಾಪ್
       </motion.a>
     </div>
   );
